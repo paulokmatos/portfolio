@@ -11,11 +11,10 @@
 	background-color: transparent;
 	width: 100%;
 	padding: 30px 0;
-	top:  0;
+	top: 0;
 	z-index: 999;
 	transition: .3s linear;
 }
-
 
 .inner-width{
 	max-width: 1300px;
@@ -32,10 +31,9 @@
 .logo{
 	width: 44px;
 	height: 32px;
-	background-image: url('../images/white-logo.png');
+	background-image: url(../images/white-logo.png);
 	background-size: contain;
 }
-
 
 .menu-toggler{
 	background: none;
@@ -45,6 +43,7 @@
 	position: relative;
 	outline: none;
 	z-index: 999;
+	display: none;
 }
 
 .menu-toggler span{
@@ -65,7 +64,7 @@
 }
 
 .navbar-menu a:hover{
-	color: #48dbfb;
+	color: #48dbfb !important;
 }
 
 .sticky{
@@ -74,7 +73,7 @@
 }
 
 .sticky .logo{
-	background-image: url('../images/black-logo.png')
+	background-image: url(../images/black-logo.png);
 }
 
 .sticky .navbar-menu a{
@@ -88,7 +87,7 @@
 #home{
 	height: 100vh;
 	min-height: 500px;
-	background: url('../images/bg.jpg') no-repeat center;
+	background: url(../images/bg.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;	
 }
@@ -114,13 +113,18 @@
 #home .content h1::after{
 	content: "Paulo";
 	animation: textanim 10s linear infinite;
-
 }
 
 @keyframes textanim{
-	25%{content: "um Desenvolvedor"}
-	50%{content: "um Gamer"}
-	75%{content: "um Freelancer"}
+	25%{
+		content: "um Desenvolvedor"
+	}
+	50%{
+		content: "um Gamer"
+	}
+	75%{
+		content: "um Freelancer"
+	}
 }
 
 .sm a{
@@ -152,7 +156,56 @@
 }
 
 #home .buttons a:hover,
-#home .buttons a:nth-child(2){
+#home .buttons a:nth-child(2)
+{
 	background-color: #48dbfb;
-	color: white;
+	color: #fff;
 }
+
+
+@media screen and (max-width: 980px){
+	.menu-toggler{
+		display: block;
+	}
+
+.navbar-menu{
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	background-color: #353b48;
+	top: 0;
+	right: -100%;
+	max-width: 400px;
+	padding: 80px 50px;
+	transition: .3s linear;
+}
+
+.navbar-menu a{
+	display: block;
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+.sticky .navbar-menu{
+	background-color: #f1f1f1;
+}
+
+.navbar-menu.active{
+	right: 0;
+}
+
+.menu-toggler.active span:nth-child(1){
+	transform: rotate(-45deg);
+	top: 4px;
+}
+
+.menu-toggler.active span:nth-child(2){
+	opacity: 0;
+}
+
+.menu-toggler.active span:nth-child(3){
+	transform: rotate(45deg);
+	bottom: 14px;
+}
+}
+

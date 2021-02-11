@@ -21,13 +21,13 @@
 	<nav class="navbar">
 		<div class="inner-width">
 			<a href="#" class="logo"></a>
-			<button class="menu-toggler">
+			<button class="menu-toggler active">
 			<span></span>
 			<span></span>
 			<span></span>
 			</button>
 
-			<div class="navbar-menu">
+			<div class="navbar-menu active">
 				<a href="#">Home</a>
 				<a href="#">Sobre</a>
 				<a href="#">Skills</a>
