@@ -114,8 +114,6 @@
 
 </body>
 
-<script src="/script/jquerry.js"></script>
-
 <script src="/script/script.js"></script>
 
 </html>
