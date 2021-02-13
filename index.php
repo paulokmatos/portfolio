@@ -26,8 +26,7 @@
 			</button>
 			<div class="navbar-menu">
 				<a href="#">Home</a>
-				<a href="#">Sobre</a>
-				<a href="#">Skills</a>
+				<a href="#sobre">Sobre & Skills</a>
 				<a href="#">Works</a>
 				<a href="#">Contato</a>
 			</div>
@@ -74,6 +73,8 @@
 				</div>
 			</div>
 
+
+			<div id="skills">
 			<div class="skills">
 				<div class="skill">
 						<div class="skill-info">
@@ -108,6 +109,7 @@
 					</div>
 				
 
+			</div>
 			</div>
 		</div>
 	</section>
