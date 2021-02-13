@@ -114,6 +114,48 @@
 		</div>
 	</section>
 
+	<!-- Serviços -->
+
+	<section id="services" class="dark" >
+		<div class="inner-width">
+			<h1 class="section-title">Serviços</h1>
+			<div class="services">
+
+			<div class="service">
+				<i class="icon fas fa-file-code"></i>
+				<h4>Developer</h4>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo.</p>
+			</div>
+
+			<div class="service">
+				<i class="icon fab fa-html5"></i>
+				<h4>HTML 5</h4>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo.</p>
+			</div>
+
+			<div class="service">
+				<i class="icon fab fa-css3-alt"></i>
+				<h4>CSS 3</h4>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo.</p>
+			</div>
+
+			<div class="service">
+				<i class="icon fas fa-database"></i>
+				<h4>My SQL</h4>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo.</p>
+			</div>
+
+			<div class="service">
+				<i class="icon fab fa-php"></i>
+				<h4>PHP</h4>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo.</p>
+			</div>
+
+			</div>
+
+		</div>
+	</section>
+
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="/script/script.js"></script>
